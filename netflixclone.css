@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+#background-image{
+    height: 82vh;
+    background-size: cover;
+    background-image:linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/5dd45df7-33f1-4274-97ea-e9c6aca69dad/ed1cb962-411d-4e43-bad2-33f07ae8e341/IN-en-20211108-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    margin: 0px;
+    border-bottom: 10px solid #222222;
+
+    
+}
+#content-header{
+    color: white;
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 640px;
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+#sub-h2{
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    max-width: 640px;
+    padding: 2% 0%;
+
+}
+#sub-h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 60vw;
+}
+.email{
+    padding: 0.5rem;
+    margin: 0;
+    width: 500px;
+    height: 7vh;
+    border-radius: 2px;
+    background-color: white;
+    color:black;
+    position: relative;
+    border: none;
+    text-indent: 20px;
+    font-weight: 350px;
+}
+input:focus {
+    outline: none;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+    margin-bottom: 400px;
+}
+
+#content{
+    margin: auto;
+}
+.button1{
+    background-color: red;
+    /* width: 100px; */
+    text-align: center;
+    padding: 3%;
+    height: 9.5vh;
+    width: 200px;
+    position: relative;
+    border: none;
+    border-radius: 2px;
+    left: -10px;
+    top: 0.5%;
+}
+#but{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+}
+nav{
+    display: flex;
+}
+
+nav .left img{
+    height: 55px;
+    left: 35px;
+    position: absolute;
+}
+
+nav .right{
+    display: flex;
+    height: 58px;
+    float: right;
+    position: absolute;
+    right: 50px;
+   
+}
+nav .right .right-name{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin-right: 15px;
+    
+}
+button{
+    margin: auto;
+    font-size: 20px;
+    padding: 7px 10px;
+    background-color: red;
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
